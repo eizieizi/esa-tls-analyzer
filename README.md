@@ -5,7 +5,9 @@ This repository contains a python script which fetches Cisco ESA (Email Security
 
 ## Run TLS Analyzer
 
-Execute the script (only tested on Linux Mint 20.1) in your working directory, it will create a subfolder called "logs" and download the logs from ESA after supplying credentials and hostname. You can also manually create a logs folder in the working directory and copy the logs manually into the folder to skip automatic download. The Script will ask you if you would like to use the existing logs. 
+Execute the script (only tested on Linux Mint 20.1) in your working directory, it will create a subfolder called "logs" and download the logs from ESA after supplying credentials and hostname. 
+
+You can also manually create a logs folder in the working directory and copy the logs manually into the folder to skip automatic download. The Script will ask you if you would like to use the existing logs. 
 
   ```sh
 test@test-pc:~/Documents/Python/esa-tls-analyzer$ python3 /home/test/Documents/Python/esa-tls-analyzer/esa-tls-analyzer.py
