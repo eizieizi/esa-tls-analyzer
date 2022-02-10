@@ -26,7 +26,7 @@ if os.path.exists("./logs"):
         
         #Reads all files into "logs" list. 
         for x in file_list:
-            with open(f"./logs/{x}") as f:
+            with open(f"./logs/{x}"),encoding="Latin-1" as f:
                 logs += f.read().splitlines()
 
     
