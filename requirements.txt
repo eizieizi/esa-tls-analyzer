@@ -1,7 +1,2 @@
-re
-os
-collections
-matplotlib.pyplot
+matplotlib
 numpy
-ftplib
-getpass
