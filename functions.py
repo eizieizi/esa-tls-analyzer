@@ -29,7 +29,7 @@ def create_plot(x,y,title):
     
     # Add x, y gridlines (Erstellt die graue durchsichtige Tablelle)
 
-    ax.grid(b = True, color ='grey',
+    ax.grid(True, color='grey',
             linestyle ='-.', linewidth = 0.5,
             alpha = 0.2)
     
